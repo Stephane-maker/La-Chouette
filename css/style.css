@@ -24,7 +24,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #fff url(img/pageload-spinner.gif) no-repeat center center
+    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -469,7 +469,7 @@ button {
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
-    -o-border-radius: 40px;
+    -o-border-radius: 40px
 }
 
 .btn-clean {
@@ -814,19 +814,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url(webp/dots-bg.webp);
+    background-image: url(webp/dots-bg.webp)
 }
 
 .bg-lines-h2-bg {
-    background-image: url(webp/lines-h2-bg.webp);
+    background-image: url(webp/lines-h2-bg.webp)
 }
 
 .bg-banniere {
-    background-image: url(webp/la-chouette-agence-banniere.webp);
+    background-image: url(webp/la-chouette-agence-banniere.webp)
 }
 
 .bg-presentation {
-    background-image: url(webp/image-de-presentation.webp);
+    background-image: url(webp/image-de-presentation.webp)
 }
 
 @media (max-width:1024px) {
@@ -1043,4 +1043,39 @@ h4 {
     .bloc-mob-center-text {
         text-align: center
     }
+}
+
+.container_chouette {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+
+.container_img_chouette {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center
+}
+
+.container_fontawesome {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+
+.fab {
+    font-size: 2.5rem
+}
+
+.social {
+    padding: 5% 5% 5% 5%
+}
+
+a {
+    padding: 0 5% 0 5%
 }
