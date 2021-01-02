@@ -1,7 +1,7 @@
 {
-  "name": "package-for-chouette",
+  "name": "package-la-chouette",
   "version": "1.0.0",
-  "description": "package de techno mis a jour",
+  "description": "package for chouette",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,10 +15,5 @@
   "bugs": {
     "url": "https://github.com/Stephane-maker/La-Chouette/issues"
   },
-  "homepage": "https://github.com/Stephane-maker/La-Chouette#readme",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.1",
-    "bootstrap": "^4.5.3",
-    "jquery": "^3.5.1"
-  }
+  "homepage": "https://github.com/Stephane-maker/La-Chouette#readme"
 }
