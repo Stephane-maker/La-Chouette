@@ -1,0 +1,41 @@
+# Example 1: Block only Googlebot
+User-agent: Googlebot
+Disallow: css/*
+
+# Example 2: Block Googlebot and Adsbot
+User-agent: Googlebot
+Disallow: fonts/*
+
+# Example 3: Block all but AdsBot crawlers
+User-agent: *
+Disallow: includes/
+
+User-agent:*
+Disallow:js/*
+
+User-agent:*
+Disallow:js_min/*
+
+User-agent:*
+Disallow:screen shot/*
+
+User-agent:*
+Disallow:webp/*
+
+User-agent:*
+Disallow:favicon.jpg
+
+User-agent:*
+Disallow:package.json
+
+User-agent:*
+Disallow:README.md
+
+User-agent:*
+Disallow:style.min.css
+
+User-agent:*
+Allow:index.html
+
+User-agent:*
+Allow:page2.html
