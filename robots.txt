@@ -39,3 +39,5 @@ Allow:index.html
 
 User-agent:*
 Allow:page2.html
+
+Sitemap: https://stephane-maker.github.io/sitemap.xml
