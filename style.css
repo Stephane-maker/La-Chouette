@@ -325,7 +325,7 @@ a:hover {
 .nav>li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu>li>a {
@@ -447,6 +447,46 @@ nav .caret {
 
 .btn {
     margin: 0 5px 5px 0;
+}
+
+.text_btn {
+    font-size: 18px;
+}
+
+.style_titre {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+}
+
+.style_paragraphe {
+    font-size: 18px;
+    color: black;
+}
+
+.texte_descriptif {
+    font-size: 18px;
+    color: white;
+}
+
+.titre_fin {
+    font-size: 25px;
+}
+
+.titre_footer {
+    font-size: 22px;
+    text-align: center;
+    margin: 2% 0 2% 0;
+}
+
+.categorie_footer {
+    font-size: 20px;
+    margin: 5% 0 5% 0;
+}
+
+.lien_footer {
+    font-size: 18px;
 }
 
 .btn.pull-right {
@@ -710,8 +750,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
-    text-transform: uppercase;
+    font-size: 20px;
     font-weight: 700;
     color: #333333!important;
 }
