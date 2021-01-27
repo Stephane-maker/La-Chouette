@@ -332,9 +332,13 @@ a:hover {
     text-align: inherit;
 }
 
-.nav>li a:hover,
-.nav>li a:focus {
-    background: transparent;
+:focus {
+    border: 1px solid black!important;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
 .navbar-toggle {
@@ -494,8 +498,7 @@ nav .caret {
 }
 
 .btn-d,
-.btn-d:hover,
-.btn-d:focus {
+.btn-d:hover {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
