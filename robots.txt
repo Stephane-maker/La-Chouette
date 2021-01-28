@@ -6,7 +6,7 @@ Disallow: includes/
 Disallow: js/
 Disallow: package.json
 Disallow: README.md
-Disallow: style.css
+Disallow: style.min.css/
 
 User-agent: *
 Allow: index.html
