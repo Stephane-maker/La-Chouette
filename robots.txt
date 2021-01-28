@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: css/
+Disallow: fonts/
+Disallow: image_webp/
+Disallow: includes/
+Disallow: js/
+Disallow: package.json
+Disallow: README.md
+Disallow: style.css
+
+User-agent: *
+Allow: index.html
+Allow:page2.html
+
