@@ -903,6 +903,12 @@ h4 {
 }
 
 @media (max-width: 991px) {
+    .lien_banniere {
+        width: 100%;
+    }
+    .for_collapse {
+        margin-left: 30%;
+    }
     .container {
         width: 100%;
     }
@@ -932,6 +938,9 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .for_collapse {
+        margin-left: 15%;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1076,13 +1085,11 @@ h4 {
         padding-right: 0;
     }
     .image_banniere {
-        width: 60%!important;
+        width: 100%!important;
         padding: 0!important;
     }
-    .for_collapse {
-        border: 1px solid black;
-        margin-top: -15%!important;
-        margin-left: 70%!important;
+    .lien_banniere {
+        display: flex;
     }
 }
 
