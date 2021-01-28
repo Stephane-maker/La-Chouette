@@ -903,12 +903,6 @@ h4 {
 }
 
 @media (max-width: 991px) {
-    .lien_banniere {
-        width: 100%;
-    }
-    .for_collapse {
-        margin-left: 30%;
-    }
     .container {
         width: 100%;
     }
@@ -938,9 +932,6 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    .for_collapse {
-        margin-left: 15%;
-    }
     .page-container {
         overflow-x: hidden;
         position: relative;
