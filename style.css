@@ -1075,6 +1075,15 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .image_banniere {
+        width: 60%!important;
+        padding: 0!important;
+    }
+    .for_collapse {
+        border: 1px solid black;
+        margin-top: -15%!important;
+        margin-left: 70%!important;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1096,4 +1105,13 @@ h4 {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+}
+
+.image_banniere {
+    width: 70%;
+    margin-right: 100%;
+}
+
+.container_link {
+    margin-left: 50%;
 }
